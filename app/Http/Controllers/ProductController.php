@@ -14,9 +14,4 @@ class ProductController extends Controller
         return view('products.index', compact('products'));
     }
 
-    public function create(Request $request)
-    {
-        $products = Product::all();
-        return view('products.create');
-    }
 }

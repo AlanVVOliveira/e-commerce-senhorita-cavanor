@@ -18,8 +18,8 @@
                 </div>
 
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('liberado pra uso') }}
+                    <x-nav-link :href="route('products.index')" :active="request()->routeIs('products')">
+                        {{ __('TELA PRINCIPAL') }}
                     </x-nav-link>
                 </div>
 
